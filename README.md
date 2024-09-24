@@ -1,5 +1,6 @@
 # Trust-NG
 
+#Opsi Pertama (manual)
 Install Trust-NG Pada Proxmox 8
 
 1. Akses Proxmox (via WEB / SHH)
