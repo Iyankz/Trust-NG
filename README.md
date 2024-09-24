@@ -25,3 +25,13 @@ Install Trust-NG Pada Proxmox 8
 Pada Perintah di atas hasil restore menjadi vm150, tinggal di sesuaikan dengan vm number nya
 
 ![image](https://github.com/user-attachments/assets/af892b8f-9d6c-4c2d-944b-f172baa24eab)
+
+5. beri ip dhcp pada VM, sebaiknya beri ip public supaya bisa dipatch (metode push via ssh) utk update versi atau bug patch
+6. start VM
+7. masuk via browser ke https://ip_anda:40443 dengan login admin pass trust-ng
+8. ganti password, simpan password sebaik-baiknya
+9. klik clients, isikan acl network ip clients yang boleh resolve, jika anda isi dengan 0.0.0.0/0 maka akan jadi open resolver, semua ip boleh query
+10. untuk ganti ip dari dhcp menjadi statik, caranya buang centang dhcp, isikan ip dengan benar
+11. klik reload system utk apply perubahan, atau biar lebih yakin lagi, klik reboot
+12. jika semua sudah berfungsi baik, silahkan isi form Ownership untuk pendataan
+13. Selesai
