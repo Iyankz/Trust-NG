@@ -41,7 +41,7 @@ Pada Perintah di atas hasil restore menjadi vm150, tinggal di sesuaikan dengan v
 1B. Akses Proxmox Via WEB/SSH (Seperti pada langkah 1A (Gambar 1A.1 atau 1A.2))
 2B. Copy Script di Bawah :
 ##
-     wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/Trust-NG/refs/heads/main/install.sh  
+     wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/Trust-NG/refs/heads/main/install.sh  -P /var/lib/vz/dump/
 ##
       chmod +x install.sh
 ##
