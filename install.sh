@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "----------------------------------------------------"
-echo " START INSTALL Trust-NG di Proxmox "
+echo " START INSTALL Trust-NG Proxmox "
 echo "----------------------------------------------------"
 echo ""
 echo "----------------------------------------------------"
