@@ -43,6 +43,6 @@ Pada Perintah di atas hasil restore menjadi vm150, tinggal di sesuaikan dengan v
 ##
      wget --no-check-certificate https://raw.githubusercontent.com/Iyankz/Trust-NG/refs/heads/main/install.sh  -P /var/lib/vz/dump/
 ##
-      chmod +x install.sh
+      chmod +x /var/lib/vz/dump/install.sh
 ##
-      sh install.sh
+      sh /var/lib/vz/dump/install.sh
