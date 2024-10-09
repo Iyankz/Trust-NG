@@ -3,7 +3,7 @@
 # Opsi Pertama A (Manual)
 Install Trust-NG Pada Proxmox 8
 
-1A. Akses Proxmox (via WEB / SHH)
+1A. Akses Proxmox (via WEB / SSH)
    ![image](https://github.com/user-attachments/assets/c30a133c-6596-4271-bf9f-c8f5c1bce942)
  <h1 align="center">Contoh Akses via WEB Gambar 1A.1</h1>
 
